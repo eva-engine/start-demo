@@ -1,6 +1,6 @@
 import { RESOURCE_TYPE } from '@eva/eva.js';
 export default [
-  {
+  { //篮球
     name: 'basketball',
     type: RESOURCE_TYPE.IMAGE,
     src: {
@@ -11,7 +11,7 @@ export default [
     },
     preload: true,
   },
-  {
+  { // 篮板
     name: 'backboard',
     type: RESOURCE_TYPE.IMAGE,
     src: {
@@ -23,7 +23,7 @@ export default [
     },
     preload: true,
   },
-  {
+  { // 背景
     name: 'bg',
     type: RESOURCE_TYPE.IMAGE,
     src: {
@@ -35,7 +35,7 @@ export default [
     },
     preload: true,
   },
-  {
+  { // 篮网上半部分
     name: 'basketBack',
     type: RESOURCE_TYPE.IMAGE,
     src: {
@@ -47,7 +47,7 @@ export default [
     },
     preload: true,
   },
-  {
+  { // 篮网正常动画
     name: 'boardIdle',
     type: RESOURCE_TYPE.SPRITE_ANIMATION,
     src: {
@@ -64,7 +64,7 @@ export default [
     },
     preload: true,
   },
-  {
+  { // 进球动画
     name: 'boardGoal',
     type: RESOURCE_TYPE.SPRITE_ANIMATION,
     src: {
